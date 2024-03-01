@@ -1,0 +1,13 @@
+//Alguns comandos iniciais
+// Verificando se está instalado: docker --version
+// Baixar uma imagem do Docker Hub: docker pull nome_da_imagem
+// Listar as imagens baixadas no host: docker images
+// Executar um contêiner de uma imagem: docker run nome_da_imagem
+// Executar um contêiner em segundo plano: docker run -d nome_da_imagem
+// Listar os contêineres em execução: docker ps
+// Listar todos os contêineres, incluindo os que estão parados: docker ps -a
+// Acessar um terminal dentro de um contêiner em execução: docker exec -it nome_do_container /bin/bash
+// Parar um contêiner em execução: docker stop nome_do_container
+// Remover um contêiner parado: docker rm nome_do_container
+// Remover uma imagem: docker rmi nome_da_imagem
+// Criar uma imagem personalizada a partir de um Dockerfile: docker build -t nome_da_imagem .
